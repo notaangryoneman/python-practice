@@ -27,4 +27,3 @@ lotfriends = ['Lena' , 'Sponge Bob', ['dont know what else to put'], 'Naruto']
 
 # print(range(4))
 # print(list(range(len(friends))))
-
