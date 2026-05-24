@@ -16,7 +16,7 @@ y = ( 1, 9, 2 )
 # print(dir(l), 'and')
 # t = tuple()
 # print(dir(t))
-# quick remaind: dir() show us what command we can use
+# quick remaind: dir() show us which of command we can use
 
 # ( a , b ) = ( 6 , 'Frog' )# just like two assignment statements 
 # print(b)
