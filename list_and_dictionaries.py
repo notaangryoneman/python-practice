@@ -1,5 +1,7 @@
-# # # # # # # # # # cards = list()
-# # # # # # # # # # cards.append(12)
+# in list we use a numbers to search, but in dictionaries we use a keys 
+
+# # # # # # # # # # cards = list()  
+# # # # # # # # # # cards.append(12) # так додаються величини до змінної в списку
 # # # # # # # # # # cards.append(3)
 # # # # # # # # # # cards.append(75)
 # # # # # # # # # # print(cards)
@@ -8,7 +10,7 @@
 # # # # # # # # # # print(cards)
 
 # # # # # # # # # cabinet = dict()
-# # # # # # # # # cabinet['summer'] = 12
+# # # # # # # # # cabinet['summer'] = 12 # так додаються величини до змінної в списку
 # # # # # # # # # cabinet['fall'] = 3
 # # # # # # # # # cabinet['spring'] = 75
 # # # # # # # # # print(cabinet)
@@ -56,12 +58,11 @@
 # # # # # # #         counts[name] = 1
 # # # # # # #     else:
 # # # # # # #         counts[name] = counts[name] + 1
-
+# this is histogram code
 
 # # # # # # for name in names:
 # # # # # #     counts[name] = counts.get(name , 0) + 1
 # # # # # # print(counts)
-
 # # # # # # # x = counts.get('csev', 0)
 # # # # # # # print(x)
 
@@ -90,8 +91,8 @@
 
 # # # jjj = { 'chuck' : 1 , 'fred' : 42 , 'jan' : 100}
 # # # print(list(jjj))
-# # # print(list(jjj.keys()))
-# # # print(list(jjj.values()))
+# # print(list(jjj.keys())) # gives you a keys from jjj
+# # # print(list(jjj.values())) # gives you a values from jjj
 # # # print(list(jjj.items())) # items get you a keys and they values, and in result you have something that called 'tuple'?
 
 
@@ -116,3 +117,5 @@
 #         bigword = word
 #         bigcount = count
 # print(bigword, bigcount)
+#   or we can use:
+# max(counts , key = counts.get)

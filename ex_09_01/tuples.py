@@ -6,10 +6,10 @@ x = ('Glenn', 'Sally', 'Joseph') # constant
 # print(x[2])
 y = ( 1, 9, 2 )
 # print(max(y))
-# for iter in y: print(iter)
+# for iter in y : print(iter)
 
 # y[2] = 10    === Traceback
-# but, they are immutable, so you can't just change it like in list
+# they are immutable, so you can't just change it like in list
 # no .sort() , no .append() , no .reverse()
 
 # l = list()
@@ -33,7 +33,7 @@ y = ( 1, 9, 2 )
 # print(tups)
 
 # ( 0, 1, 2 ) < ( 5, 1, 2 ) # the tuples also can be comparable, but its checked from first item, 
-# if the first equal we go next, but if the next is not its finished to comparing
+# if the first is equal we go next, but if the next is not its finished to comparing
 # ( 'Jones' , 'Sally') < ('Jones' , 'Sam') 
 
 
@@ -50,9 +50,9 @@ d = {'a':10, 'c':22, 'b':1}
 # tmp = list()
 # for k,v in d.items():
 #     tmp.append( (v,k) )
-#  print(tmp)
+# print(tmp)
 # tmp = sorted(tmp, reverse=True)
-# print(tmp)f
+# print(tmp)
 
 # fhand = open('romeo.txt')
 # counts = dict()
